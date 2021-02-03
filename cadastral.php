@@ -1,7 +1,5 @@
 <?php
-$value = gzfile('https://cadastre.data.gouv.fr/data/etalab-dvf/latest/csv/2020/full.csv.gz');
-$data = parse_str($value[1]);
-echo $data;
+
 /*echo "<pre>";
 var_dump($data);
 echo "</pre>";*/
